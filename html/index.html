@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Register for College Tech Fest 2026 at SDM Institute of Technology, Ujire. Showcase your coding, innovation, and teamwork. March 18–19, 2026.">
+    <title>College Tech Fest 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <!--Event name-->
+                <span class="nav-logo">College Tech Fest 2026</span>
+            </div>
+            <div>
+                <!--Navigation link-->
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#register">Register</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>College Tech Fest 2026</h1>
+            <p>Join the biggest technical
+                festival to showcase your coding, innovation, and teamwork.</p>
+            <p>Code • Create • Compete<br>
+                📅 March 18–19, 2026<br> 📍 SDM Institute of Technology, Ujire</p>
+            <a href="#register">Register Now</a>
+        </section>
+        <section id="about" class="fade-in-section">
+            <h2>About</h2>
+            <p>College Tech Fest 2026 is an exciting technical event organized
+                to bring together students from different colleges to showcase their
+                talents, creativity, and technical knowledge. The event includes coding
+                competitions, workshops, project exhibitions, quizzes, and expert sessions,
+                providing participants with an opportunity to learn, innovate, and collaborate.</p>
+            <h3>Objectives</h3>
+            <ul>
+                <li>Enhance students' technical and problem-solving skills.</li>
+                <li>Encourage innovation, creativity, and teamwork.</li>
+                <li>Provide a platform to showcase projects and ideas.</li>
+                <li>Promote learning through competitions and workshops.</li>
+                <li>Connect students with industry experts and professionals.</li>
+            </ul>
+            <h3>Highlights</h3>
+            <ul>
+                <li>💻 Coding Competition</li>
+                <li>🚀 Hackathon Challenge</li>
+                <li>🤖 Project Exhibition</li>
+                <li>🎤 Expert Guest Sessions</li>
+                <li>🧩 Technical Quiz</li>
+                <li>🏆 Exciting Prizes and Certificates</li>
+            </ul>
+        </section>
+        <section id="schedule" class="fade-in-section">
+            <h2>Schedule</h2>
+            <div class="schedule-container">
+                <div class="schedule-card">
+                    <h3>Coding Competition</h3>
+                    <p><strong>Time:</strong>10.30 AM</p>
+                    <p><strong>Venue:</strong>Main Seminar Hall</p>
+                </div>
+                <div class="schedule-card">
+                    <h3>Hackathon Challenge</h3>
+                    <p><strong>Time:</strong>10:00 AM</p>
+                    <p><strong>Venue:</strong>CCP Lab</p>
+                </div>
+                <div class="schedule-card">
+                    <h3>Project Exhibition</h3>
+                    <p><strong>Time:</strong>1:00 PM</p>
+                    <p><strong>Venue:</strong>Main Auditorium</p>
+                </div>
+                <div class="schedule-card">
+                    <h3>Technical Quiz</h3>
+                    <p><strong>Time:</strong>11:30 AM</p>
+                    <p><strong>Venue:</strong>Room 101</p>
+                </div>
+                <div class="schedule-card">
+                    <h3>Expert Guest Session</h3>
+                    <p><strong>Time:</strong>3:00 PM</p>
+                    <p><strong>Venue:</strong>Conference Hall</p>
+                </div>
+            </div>
+        </section>
+        <section id="register" class="fade-in-section">
+            <h2>Registration</h2>
+            <form>
+                <div>
+                    <label for="fullname">Full Name:</label>
+                    <input id="fullname" type="text" name="name" placeholder="Your Name" autocomplete="name" required>
+                </div>
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input id="email" type="email" name="email" placeholder="Email address" autocomplete="email"
+                        required>
+                </div>
+                <div>
+                    <label for="phone">Mobile Number:</label>
+                    <input id="phone" type="tel" name="phone" placeholder="+91" autocomplete="tel" required>
+                </div>
+                <div>
+                    <label for="college">College Name:</label>
+                    <input id="college" type="text" name="college" placeholder="College Name"
+                        autocomplete="organization" required>
+                </div>
+                <div>
+                    <label for="dept">Department:</label>
+                    <input id="dept" type="text" name="dept" placeholder="Department" required>
+                </div>
+                <div>
+                    <label for="year">Year of Study:</label>
+                    <select id="year" name="year" required>
+                        <option value="" disabled selected>Select Year</option>
+                        <option>1st Year</option>
+                        <option>2nd Year</option>
+                        <option>3rd Year</option>
+                        <option>4th Year</option>
+                    </select>
+                </div>
+                <div>
+                    <label id="genderLabel">Gender:</label>
+                    <div class="gender-group" role="radiogroup" aria-labelledby="genderLabel">
+                        <div class="gender-option">
+                            <input type="radio" id="male" name="gender" required>
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="gender-option">
+                            <input type="radio" id="female" name="gender" required>
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="gender-option">
+                            <input type="radio" id="other" name="gender" required>
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label for="event">Event Selection</label>
+                    <select id="event" name="event" required>
+                        <option value="" disabled selected>Select Event</option>
+                        <option>Czoding Competition</option>
+                        <option>Hackathon Challenge</option>
+                        <option>Project Exhibition</option>
+                        <option>Technical Quiz</option>
+                        <option>Expert Guest Session</option>
+                    </select>
+                </div>
+                <button type="submit">Submit Registration</button>
+            </form>
+        </section>
+        <section id="contact" class="fade-in-section">
+            <h2>Contact Us</h2>
+            <p><strong>Event Coordinator:</strong> Priya Sharma</p>
+            <p><strong>Phone:</strong> <a href="tel:+919876543210">+91 9876543210</a></p>
+            <p><strong>Email:</strong> <a href="mailto:techfest2026@gmail.com">techfest2026@gmail.com</a></p>
+            <p><strong>Address:</strong> SDM Institute of Technology, Ujire</p>
+            <a class="map-btn" href="https://maps.app.goo.gl/vrSTxzxtkiVCGUVx8" target="_blank"
+                rel="noopener noreferrer">View on Google Maps</a>
+        </section>
+        <footer>
+            <p>© 2026 College Tech Fest. Organized by Department of Computer Science & Engineering</p>
+            <p>Thank you for visiting our website.</p>
+        </footer>
+    </main>
+    <!-- Success Modal -->
+    <div id="successModal" class="modal" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-content">
+            <span class="modal-close" id="closeModalBtn" aria-label="Close modal">&times;</span>
+            <div class="modal-icon">🎉</div>
+            <h2 id="modalTitle">Registration Successful!</h2>
+            <p>Thank you for registering. We look forward to seeing you at College Tech Fest 2026!</p>
+            <button id="modalOkBtn" type="button" class="modal-btn">Great!</button>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

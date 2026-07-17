@@ -1,0 +1,38 @@
+CSS one rule
+selector {
+    property: value;
+}
+
+body — Applies common styles to the entire webpage.
+
+margin: 0 — Removes the browser's default outer spacing.
+
+font-family — Sets a consistent font for the website.
+
+color — Sets the default text color.
+
+background-color — Defines the background color of an element.
+
+padding — Adds space inside an element.
+
+display: flex — Arranges direct child elements in a flexible horizontal layout.
+
+justify-content: space-between — Pushes the first and last flex items to opposite sides.
+
+align-items: center — Vertically aligns flex items.
+
+list-style: none — Removes default bullets from lists.
+
+gap — Creates equal spacing between flex items.
+
+text-decoration: none — Removes the default underline from links.
+
+margin: 0 (ul) — Removes default outer spacing added by the browser.
+
+padding: 0 (ul) — Removes default inner spacing for proper alignment.
+
+font-weight — Makes navigation links more readable.
+
+:hover — Changes link appearance when the mouse pointer is over it.
+
+box-shadow — Adds depth and separates the navbar from the page.

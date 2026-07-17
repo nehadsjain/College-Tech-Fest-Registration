@@ -1,0 +1,69 @@
+Project Structure — Separate folders (html, css, js, images) — Keeps the project organized, easier to maintain, and follows industry-standard folder structure.
+
+Semantic HTML — <header> — Used to represent the header section of the webpage. Improves readability, accessibility, and SEO.
+
+Navigation Bar — <nav> — Indicates that this section contains navigation links. Helps browsers and screen readers understand the page structure.
+
+Grouping Content — <div> — Used as a generic container to group related elements for layout and styling. It has no semantic meaning.
+
+Main Content — <main> — Represents the primary content of the webpage. There should be only one main section on a page.
+
+Home Section — <section id="home"> — Used because Home is an independent section of the webpage. The id allows navigation using href="#home".
+
+About Section — <section id="about"> — Represents a separate content section describing the event.
+
+Main Heading — <h1> — Used for the most important heading of the webpage (College Tech Fest 2026). It defines the page's primary title.
+
+Section Heading — <h2> — Used for major sections like About, Schedule, Registration, and Contact.
+
+Subsection Heading — <h3> — Used for headings inside a section, such as Objectives and Highlights.
+
+Description — <p> — Used to display descriptive text or complete sentences as a paragraph.
+
+Objectives — <ul> and <li> — Used because objectives are a list of items without any specific order.
+
+Highlights — <ul> and <li> — Used because highlights are independent features of the event and do not require numbering.
+
+Navigation Links — <a> — Used to create clickable links for navigating to other pages or sections.
+
+Section Navigation — href="#section-id" — Used to navigate to a specific section on the same webpage without opening another page.
+
+Unique Identification — id — Used to uniquely identify an element on the page. Required for internal navigation and JavaScript.
+
+Reusable Styling — class — Used to group multiple elements so the same CSS styles can be applied to all of them.
+
+Register Now Button — <a> (recommended) — Since clicking Register Now navigates to the Registration section, an anchor tag is more appropriate than a button.
+
+Submit Button — <button> (future) — Used when performing an action such as submitting the registration form.
+
+Objectives & Highlights — Two separate <ul> elements — They represent two different groups of information. Keeping them separate improves semantics and styling.
+
+Hero Section — Event Name + Description + Register Link — Gives visitors a quick overview of the event and provides a clear call-to-action.
+
+Professional Icons — Font Awesome Icons (planned) — Preferred over emojis because they provide a consistent, scalable, and professional appearance across browsers and devices.
+
+Hero Background — Image (planned) — Used to create a visually appealing first impression and make the website more engaging.
+
+Schedule Cards — <div class="schedule-card"> — Groups each event into a reusable card for styling and responsiveness.
+
+Registration Form — <form> — Collects user information in a structured way.
+
+Label — <label> — Describes the purpose of an input field and improves accessibility.
+
+Input — <input> — Accepts user data such as name, email and phone number.
+
+Placeholder — placeholder — Displays a hint/example inside an input field.
+
+Required — required — Prevents form submission if the field is empty.
+
+Dropdown — <select> + <option> — Lets users choose one option from a predefined list.
+
+Radio Button — <input type="radio"> — Allows users to select only one option from a group.
+
+name (Radio) — name="gender" — Groups radio buttons so only one can be selected.
+
+id + for — id (input) & for (label) — Connects a label with its input so clicking the label selects/focuses the input.
+
+Footer — <footer> — Contains copyright and closing information of the webpage.
+
+Hyperlink — <a> — Creates clickable links such as Google Maps.
